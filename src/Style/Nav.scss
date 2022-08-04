@@ -1,0 +1,89 @@
+$login: none;
+$navclr: #1B252C;
+
+.new {
+  width: 75% !important;
+}
+
+.buttons {
+  font-size: 18px;
+  padding-right: 1rem;
+
+}
+
+.login {
+  text-decoration: $login;
+  color: $navclr;
+  padding-left: 5px;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+
+.signin {
+  text-decoration: $login;
+  color: $navclr;
+  font-size: 16px;
+  padding-right: 8px;
+}
+
+.cart {
+  text-decoration: $login;
+  color: $navclr;
+  font-size: 16px;
+}
+
+.navbar-nav a {
+  font-size: 16px;
+}
+
+.navbar-brand {
+  font-weight: normal;
+}
+
+.navbar-brand span {
+  display: inline-block;
+  margin: 0;
+  line-height: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+  background: linear-gradient(to right, #1c87c9 50%, black 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+  background-color: #1363DF;
+}
+
+.nav-bar {
+  background-color: #1363DF;
+}
+
+.nav-bar {
+  a {
+    color: #ffffff !important;
+    font-weight: 400;
+
+  }
+
+  .container {
+    padding: 0px !important;
+
+  }
+}
+
+@media only screen and(max-width:993px) {
+  .nav-bar {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1020px) {
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 156px !important;
+  }
+}

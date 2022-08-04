@@ -1,0 +1,10 @@
+/* Navbar */
+body{
+  font-family: 'Source Serif Pro', serif;
+}
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}

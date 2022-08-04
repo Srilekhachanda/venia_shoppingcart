@@ -1,0 +1,122 @@
+.herosection {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.herosection .card-body {
+  height: 17rem;
+  background-color: #1B252C;
+  
+}
+
+.herosection .card-title {
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 3rem;
+  font-family: 'Source Serif Pro', serif;
+}
+.card-img img {
+  width: 100% !important;
+  margin-top: 8px !important;
+  margin-bottom: 33px !important;
+  height: 220px !important;
+  margin-left: 0px !important;
+}
+
+.lines img {
+  width: 122px;
+  margin-left: 81px;
+}
+
+.herosection {
+ 
+  padding-bottom: 12px;
+}
+
+.lines hr {
+  background-color: #1F39FF !important;
+  height: 0.5rem !important;
+  width: 42%;
+  margin: 3rem 6rem;
+  opacity: 3;
+}
+
+.awq {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .mnb {
+    display: none;
+  }
+
+  .awq {
+    display: block;
+  }
+  
+  .cardone {
+    margin-top: -77px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 19px;
+  }
+
+  .herosection .card-body {
+    height: 11rem;
+    background-color: #1B252C;
+    margin-top: -74px;
+  }
+
+  .herosection .card-title {
+
+    padding-top: 0rem;
+
+  }
+
+  .herosection {
+    padding-top: 3px;
+  }
+
+  .lines hr {
+    background-color: #1F39FF !important;
+    height: 0.5rem !important;
+    width: 13%;
+    margin: 2rem 22rem;
+    opacity: 3;
+  }
+  .card-img img {
+    width: 100%;
+    margin-top: -3px !important;
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 766px) {
+  .lines hr {
+    background-color: #1F39FF !important;
+    height: 0.5rem !important;
+    width: 38%;
+    margin: 3rem 6rem;
+    opacity: 3;
+  }
+  .card-img img {
+    width: 100%;
+    height: 163px;
+    margin-top: -3px !important;
+    margin-bottom: 30px;
+}
+.card--black{
+  margin-top: -82px ;
+}
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+.card-img img {
+  height: 211px;
+}
+
+
+}
